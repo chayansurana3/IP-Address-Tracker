@@ -1,10 +1,10 @@
-# 🚀Frontend Mentor - IP address tracker solution🚀
+# 🚀 IP Address Tracker 🚀
 
 This is a solution to the [IP address tracker challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
-- [🚀Frontend Mentor - IP address tracker solution🚀](#frontend-mentor---ip-address-tracker-solution)
+- [🚀 IP Address Tracker 🚀](#-ip-address-tracker-)
   - [Table of contents](#table-of-contents)
   - [Overview](#overview)
     - [The challenge](#the-challenge)
@@ -29,7 +29,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshots/Screenshot1.png)
+![](./screenshots/Screenshot2.png)
 
 ### Links
 
