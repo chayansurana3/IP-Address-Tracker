@@ -22,7 +22,7 @@ function App() {
     let ip = document.getElementById(id).value;
     try {
       setSpinner(true);
-      let response = await fetch(`http://localhost:3001/geo?ip=${ip}`);
+      let response = await fetch(`/.netlify/functions/geo?ip=${ip}`);
       let data = await response.json();
       setData({
         ip: data.ip || "-",
