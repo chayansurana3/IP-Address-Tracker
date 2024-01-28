@@ -21,7 +21,7 @@ const Map = ({ data }) => {
   }, [data]);
   
   return (
-    <MapContainer className="-z-0" center={center} zoom={13} style={{ height: "400px" }} ref={mapRef}>
+    <MapContainer className="-z-0" center={center} zoom={13} style={{ height: "800px" }} ref={mapRef}>
       <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" attribution='© OpenStreetMap contributors' />
       <Marker position={center} icon={customIcon}>
         <Popup>Location based on the IP address: <span className="underline">{data.ip}</span></Popup>
