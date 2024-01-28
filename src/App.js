@@ -45,8 +45,8 @@ function App() {
   return (
     <div className="App">
       <Header handleSubmit={handleSubmit} data={data} spinner={spinner}/>
-      <Card data={data} display={dataFetched}/>
       {data.lat !== 0 && data.lon !== 0 && <Map data={data} spinner={spinner} />}
+      <Card data={data} display={dataFetched}/>
     </div>
   );
 }
