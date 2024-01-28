@@ -15,7 +15,7 @@ function App() {
     lat: 0,
     lon: 0,
   });
-  const [dataFetched, setDataFetched] = useState(true);
+  const [dataFetched, setDataFetched] = useState(false);
   const [spinner, setSpinner] = useState(false);
 
   const handleSubmit = async (id) => {
